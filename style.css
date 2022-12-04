@@ -106,7 +106,7 @@ p{
 	border: 5px solid hotpink;
 	border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
 	border-image-slice: 1;
-	width: 600px;
+	width: 800px;
 	height: 900px;
 	align-items: center;
 	justify-content: center;
