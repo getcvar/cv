@@ -103,18 +103,17 @@ p{
 }
 
 .card {
-	border-style: solid;
+	border: 5px solid hotpink;
+	border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+	border-image-slice: 1;
 	width: 600px;
 	height: 600px;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	border-width: 1px;
-	border-color: rgba(103, 82, 93, 0.5);
 	box-shadow: 1px 2px 12px;
 	animation-name: cards;
 	animation-duration: 3s;
-
 	
 
 }
