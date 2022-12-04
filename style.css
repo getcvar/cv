@@ -132,3 +132,12 @@ p{
 	margin-left: 23px;
 }
 
+
+.telegapic:hover {
+	width: 65px;
+	transition: 0.5s;
+}
+
+.telegapic:active {
+	opacity: 30%;
+}
