@@ -108,7 +108,7 @@ p{
 	height: 600px;
 	align-items: center;
 	justify-content: center;
-	margin-left: 450px;
+	margin: 0 auto;
 	border-width: 1px;
 	border-color: rgba(103, 82, 93, 0.5);
 	box-shadow: 1px 2px 12px;
