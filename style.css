@@ -1,31 +1,13 @@
 body {
 	background-color: lightpink;
-	animation-name: background;
-	animation-duration: 8s;
-	animation-iteration-count: infinite;
+	
 }
 
 
 
 
 
-@keyframes background{
-	0%{
-		background-color: lightpink;
 
-	}
-	25% {
-		background-color: #F1DA6B;
-	}
-	50%{
-		background-color: lightblue;
-	}
-
-	100%{
-		background-color: lightpink;
-
-	}
-}
 
 
 .profilepic {
@@ -37,42 +19,21 @@ body {
 .pic {
 	width: 250px;
 	border-radius: 125px;
-	animation-name: pic-opacity;
-	animation-duration: 6s;
-	animation-fill-mode: forwards;
+	;
 	margin-top: 16px;
 
 }
 
-@keyframes pic-opacity{
-	0% {
-		opacity: 0%;
-	}
-	100%{
-		opacity: 100%;
-	}
-}
 
 .profile-desc{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	column-gap: 10px;
-	animation-name: desc;
-	animation-duration: 6s;
-	animation-fill-mode: forwards;
+	
 
 }
 
-@keyframes desc {
-	0% {
-		opacity: 0%;
-	}
-	100%{
-		opacity: 100%;
-	}
-
-}
 
 
 p{
@@ -112,27 +73,16 @@ p{
 	justify-content: center;
 	margin: 0 auto;
 	box-shadow: 1px 2px 12px;
-	animation-name: cards;
-	animation-duration: 3s;
 	
-
-
-
 	
 
 }
-
-
 @keyframes cards {
 	0% {
 		opacity: 0%;
-		
-		
 	}
 	100% {
 		opacity: 100%;
-		
-		
 	}
 
 }
@@ -141,6 +91,23 @@ p{
 	margin-left: 23px;
 }
 
+.work-exp {
+	font-family: Roboto;
+	margin-left: 23px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.jobs {
+	margin-left: 23px;
+	font-family: Roboto;
+	font-weight: bold;
+
+}
+
+.job-desc {
+	margin-left: 23px;
+}
 
 @media only screen and (max-width: 700px) {
   .card {
@@ -160,83 +127,6 @@ p{
 
 .telegapic:active {
 	opacity: 30%;
-}
-
-.feedbacktext {
-	font-family: Anton;
-}
-.feedback {
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 50px;
-	flex-direction: column;
-}
-
-.input {
-	border: 10px solid hotpink;
-	border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-	border-image-slice: 1;
-	width: 300px;
-	height: 50px;
-	outline: none;
-	font-size: 30px;
-	font-family: Roboto;
-
-	
-	
-	box-shadow: 1px 2px 12px;
-}
-
-.sendbutton {
-	width: 50px;
-	background-image:linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
-
-  overflow: hidden;
-  color: #fff;
-  border-radius: 30px;
-  box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: none;
-  height: 70px;
-  width: 150px;
-  font-size: 30px;
-  p
-
-
-
-}
-
-}
-
-.sendbutton:after {
-  content: "";
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  top: -50px;
-  left: -100px;
-  background-color: #ff3cac;
-  background-image: linear-gradient(
-    225deg,
-    #27d86c 0%,
-    #26caf8 50%,
-    #c625d0 100%
-  );
-  z-index: -1;
-  transition: transform 0.5s ease;
-}
-
-.sendbutton:hover {
-  transform: translate(0, -6px);
-  box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5),
-    -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
-}
-
-
- .sendbutton:hover::after  {
-  transform: rotate(150deg);
 }
 
 
